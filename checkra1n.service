@@ -1,0 +1,9 @@
+[Unit]
+Description=A portable way to run checkra1n
+
+[Service]
+Type=simple
+ExecStart=sudo /bin/checkra1n -c -v
+ 
+[Install]
+WantedBy=multi-user.target
