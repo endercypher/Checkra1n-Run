@@ -14,8 +14,8 @@ wget https://endercypher.dev/Checkra1n-Run/checkra1n.service
 sudo mv ./checkra1n /bin/checkra1n
 sudo mv ./checkra1n.service /lib/systemd/system/
 
-sudo chmod 775 /bin/checkra1n
-sudo chmod 777 /lib/systemd/system/checkra1n.service
+sudo chmod 755 /bin/checkra1n
+sudo chmod 755 /lib/systemd/system/checkra1n.service
 
 sudo systemctl start checkra1n
 sudo systemctl enable checkra1n
