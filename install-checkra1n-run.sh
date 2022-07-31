@@ -7,7 +7,7 @@ echo Done!
 
 echo "Getting Checkra1n & Setting it up...."
 
-wget https://assets.checkra.in/downloads/linux/cli/arm/f2ae569ff84a0a95697bbf849490b139ecb1aa8133abb29d33e616ac63ae8489/checkra1n
+wget https://assets.checkra.in/downloads/linux/cli/arm/ff05dfb32834c03b88346509aec5ca9916db98de3019adf4201a2a6efe31e9f5/checkra1n
 
 wget https://endercypher.dev/Checkra1n-Run/checkra1n.service
 
